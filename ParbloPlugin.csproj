@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TrimMode>link</TrimMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="/home/dmitry/Documents/OpenTabletDriver/OpenTabletDriver.Plugin/OpenTabletDriver.Plugin.csproj"></ProjectReference>  
+    <ProjectReference Include="/home/dmitry/Documents/OpenTabletDriver/OpenTabletDriver.Configurations/OpenTabletDriver.Configurations.csproj"></ProjectReference>
+  </ItemGroup>
+</Project>
